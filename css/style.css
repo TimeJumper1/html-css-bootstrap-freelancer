@@ -52,7 +52,7 @@ header ul{
     width: 100%;
     height: auto;
     padding: 10px;
-    background-color: green;
+    background-color: rgb(8, 163, 124);
 }
 .ms_img-control{
     width: 40%;
@@ -76,7 +76,7 @@ header ul{
 .about-section{
     width: 100%;
     height: auto;
-    background-color: green;
+    background-color: rgb(8, 163, 124);
     padding: 80px;
 }
 .ms_btn_border{
@@ -93,7 +93,7 @@ header ul{
     margin-top: 80px;
 }
 .ms_btn_color{
-    background-color: green;
+    background-color: rgb(8, 163, 124);
 }
 /* footer */
 footer{
