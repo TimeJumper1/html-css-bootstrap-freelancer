@@ -1,0 +1,81 @@
+
+/* common */
+ul{
+    
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.ms_center{
+    text-align: center;
+}
+.ms_color_white{
+    color: white;
+}
+.ms_color_blue{
+    color:  rgb(7, 42, 51);
+}
+/* header */
+header{
+    height: 80px;
+    background-color: rgb(7, 42, 51);
+    color: white;
+}
+header ul{
+    text-align: end;
+}
+.ms_bar-menu{
+    font-size: 30px;
+    line-height: 80px;
+}
+.ms_alignment{
+    line-height: 80px;
+}
+/* start bootstrap section */
+.start-bs-section{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: green;
+}
+.ms_img-control{
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+.start-bs-section h1 {
+    color: white;
+    text-align: center;
+}
+
+/* portfolio section */
+.abbellimenti{
+    
+    margin: 10px 0;
+}
+.abbellimenti img{
+    border-radius: 10px;
+}
+/* about section */
+.about-section{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    padding: 80px;
+}
+.ms_btn{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 3px 7px;
+    display: inline-block;
+}
