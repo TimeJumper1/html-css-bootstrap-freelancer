@@ -25,6 +25,12 @@ img{
 .ms_color_blue{
     color:  rgb(7, 42, 51);
 }
+.ms_btn{
+    
+    border-radius: 4px;
+    padding: 3px 7px;
+    display: inline-block;
+}
 /* header */
 header{
     height: 80px;
@@ -73,9 +79,43 @@ header ul{
     background-color: green;
     padding: 80px;
 }
-.ms_btn{
+.ms_btn_border{
     border: 1px solid white;
-    border-radius: 4px;
-    padding: 3px 7px;
+}
+
+/* contact me section */
+.ms_container{
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+.ms_spacing{
+    margin-top: 80px;
+}
+.ms_btn_color{
+    background-color: green;
+}
+/* footer */
+footer{
+    background-color: rgb(26, 64, 102);
+}
+.ms_spacing_footer-element{
+    margin: 17px 0;
+}
+.ms_border_circle{
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+    border-radius: 50%;
+    padding: 5px;
     display: inline-block;
+    text-align: center;
+    font-size: 24px;
+}
+.ms_color_fluoblue{
+    color: rgb(0, 60, 255);
+}
+.ms_color_background{
+    background-color: rgb(17, 42, 66);
 }
