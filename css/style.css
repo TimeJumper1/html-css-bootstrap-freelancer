@@ -55,7 +55,7 @@ header ul{
     background-color: #1abc9c;
 }
 .ms_img-control{
-    width: 40%;
+    width: 30%;
     height: auto;
     margin: auto;
 }
@@ -82,7 +82,11 @@ header ul{
 .ms_btn_border{
     border: 1px solid white;
 }
-
+.ms_small_container{
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+}
 /* contact me section */
 .ms_container{
     width: 60%;
