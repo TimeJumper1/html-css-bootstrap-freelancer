@@ -31,6 +31,23 @@ img{
     padding: 3px 7px;
     display: inline-block;
 }
+.ms_btn:hover{
+    filter: invert();
+}
+.ms_star_line-w{
+    margin: 0 3px;
+    width: 40px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+    vertical-align:super;
+}
+.ms_star_line-b{
+    margin: 0 3px;
+    width: 40px;
+    display: inline-block;
+    border-bottom: 3px solid rgb(7, 42, 51) ;
+    vertical-align:super;
+}
 /* header */
 header{
     height: 80px;
@@ -65,6 +82,9 @@ header ul{
 }
 
 /* portfolio section */
+#portfolio{
+    margin: 30px auto;
+}
 .abbellimenti{
     
     margin: 10px 0;
@@ -88,14 +108,23 @@ header ul{
     margin: auto;
 }
 /* contact me section */
+#contact{
+    margin: 30px auto;
+}
 .ms_container{
     width: 60%;
-    margin: auto;
+    margin: 30px auto;
     height: auto;
 }
-.ms_spacing{
-    margin-top: 80px;
+input[type="text"],
+input[type="email"],
+.ms_container #customer-message{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
 }
+
 .ms_btn_color{
     background-color: #1abc9c;
 }
@@ -122,4 +151,7 @@ footer{
 }
 .ms_color_background{
     background-color: #2c3e50;
+    height: 80px;
+    line-height: 80px;
 }
+
